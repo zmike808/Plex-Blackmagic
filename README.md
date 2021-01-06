@@ -29,5 +29,5 @@ Once you are ready, you can publish your code by running the following command:
 wrangler publish
 ```
 
-#### A Final Quick Note
+# A Final Quick Note
 Yes, the code is a huge mess. This was just a script I whipped up for myself. I will try to clean it up eventually if it actually ends up being used.
