@@ -4,7 +4,9 @@ A cloudflare worker for plex that uses blackmagic to change default client bitra
 # IMPORTANT!!! Remember to configure the routes in wrangler.toml
 For this to work properly, remember edit wrangler.toml and replace the "CLOUDFLARE_PLEX_URL" in routes with the correct plex domain 
 
-For example if your plex domain was plex.example.com: 
+For example if your plex domain was plex.example.com:
+
+
 plex.example.com/video/:/transcode/universal/decision*
 
 plex.example.com/video/:/transcode/universal/start*
