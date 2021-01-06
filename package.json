@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "plex-blackmagic",
+  "version": "1.0.0",
+  "description": "A cloudflare worker that does some serious black magic to bring plex out of 1900s and into 2k20",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write --no-semi --single-quote --print-width 100 --trailing-comma es5 '**/*.{js,css,json,md}'"
+  },
+  "author": "Michael Zemsky <zmike808@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
