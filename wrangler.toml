@@ -4,7 +4,7 @@ account_id = ""
 zone_id = ""
 
 routes = [
-  "CLOUDFLARE_PLEX_URL/video/:/transcode/universal/decision*", 
-  "CLOUDFLARE_PLEX_URL/video/:/transcode/universal/start*", 
-  "CLOUDFLARE_PLEX_URL/video/:/transcode/universal/subtitles*"
+  "plex.ktwo.io/video/:/transcode/universal/decision*", 
+  "plex.ktwo.io/video/:/transcode/universal/start*", 
+  "plex.ktwo.io/video/:/transcode/universal/subtitles*"
 ]
